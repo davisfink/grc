@@ -208,22 +208,22 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author: Davis Fink
    ========================================================================== */
+html,body {font-size: 12px;}
+body { width: 90%; margin: 0 auto; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+table {
+	margin: 12px auto;
+	width: 100%;
+	position: relative;
+}
+th { font-size: 1.2em; text-align: left; }
+th, tr, td { padding: .35em; }
+tr:nth-child(even) { background: #eee; }
+.title-column { width: 44.4444444%; } 
+.release-column { width: 16.66666666%; }
+.genre-column { width: 16.66666%; }
 
 
 /* ==|== non-semantic helper classes ========================================
