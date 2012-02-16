@@ -225,6 +225,22 @@ tr:nth-child(even) { background: #eee; }
 .release-column { width: 16.66666666%; }
 .genre-column { width: 16.66666%; }
 
+table.tablesorter thead tr .header {
+	background-image: url('../img/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url('../img/asc.gif');
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url('../img/desc.gif');
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #eee;
+}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
