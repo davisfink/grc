@@ -18,7 +18,7 @@
 	<div id="container">
 		<header>
 			<h1>Game Release Calendar</h1>
-			<p>Welcome to grc v1. The following is a list of game and their proposed release dates.</p>
+			<p>Welcome to grc v1.1. The following is a list of game and their proposed release dates.</p>
 		</header>
 		<div id="main" role="main">
 

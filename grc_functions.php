@@ -11,7 +11,7 @@ class Game
 }
 
 function update_game_list() {
-	$data = file_get_contents('http://xbox360.gamespy.com/index/release.html?constraint.year.game.release_date=2012&constraint.return_all=is_true');
+	$data = file_get_contents('dummy.html');
 	$html = new simple_html_dom();
 	$html -> load($data);
 	$change_list = array();
