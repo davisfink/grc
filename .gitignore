@@ -1,0 +1,4 @@
+*.psd
+old/
+.DS_Store
+config.php
