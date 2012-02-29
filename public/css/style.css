@@ -225,8 +225,8 @@ tr:nth-child(even) { background: #eee; }
 .release-column { width: 16.66666666%; }
 .genre-column { width: 16.66666%; }
 
-#title { float: left; }
-#search_form { float: right; margin: 20px; }
+#title {  }
+#search_form { margin: 1.2em 0; }
 
 /*TableSorter*/
 table.tablesorter thead tr .header {
